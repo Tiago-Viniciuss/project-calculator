@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#login {
+    background-image: url(imagens/background.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    text-align: center;
+}
+
+#formulario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.659);
+    color: white;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#username {
+    margin: 10px;
+    width: 250px;
+}
+
+#password {
+    margin: 10px;
+    width: 250px;
+}
+
+
+#loginbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#enterbutton {
+    width: 90px;
+    font-weight: bolder;
+    margin: 10px;
+    letter-spacing: 4px;
+}
+
+#enterbutton:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(2, 170, 50);
+    text-shadow: 0 0 4px #fff, 0 0 4px #ff0;
+    border: 1px solid white;
+}
+
+#link { 
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
